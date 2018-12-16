@@ -1,0 +1,62 @@
+{
+  "title": "TDC DEV WORKSHOP",
+  "path": "/conf/the-complete-developer",
+  "startDate": "12-12-2019",
+  "endDate": "12-12-2019",
+  "speakers": [
+    {
+      "name": "Iyk Azorji",
+      "pic": "https://pbs.twimg.com/profile_images/1062913735449366528/t1jKmDAe_400x400.jpg",
+      "bio": "Developer advocate @apollojs,Google Developer expert...",
+      "twitterHandle": "@iykAzorji",
+      "topic": "The New Web",
+      "startTime": "12-03-03",
+      "endTime": "12-02-03"
+    },
+    {
+      "name": "Segun Olamide",
+      "pic": "https://pbs.twimg.com/profile_images/815690276308156416/xQJMVAMl_400x400.jpg",
+      "bio": "Developer advocate @apollojs,Google Developer expert...",
+      "twitterHandle": "@wonexo",
+      "topic": "The New Web",
+      "startTime": "12-03-03",
+      "endTime": "12-02-03"
+    },
+    {
+      "name": "Agboola Jude",
+      "pic": "https://pbs.twimg.com/profile_images/1031849999615905793/wmC3ebgh_400x400.jpg",
+      "bio": "Developer advocate @apollojs,Google Developer expert...",
+      "twitterHandle": "@marvinjudehk",
+      "topic": "The New Web",
+      "startTime": "12-09-09",
+      "endTime": "12-10-12"
+    },
+    {
+      "name": "Olaolu",
+      "pic": "https://pbs.twimg.com/profile_images/1067357946655449088/bxR0OXLU_400x400.jpg",
+      "bio": "Developer advocate @apollojs,Google Developer expert...",
+      "twitterHandle": "@mrolaola",
+      "topic": "The New Web",
+      "startTime": "12-09-09",
+      "endTime": "12-10-12"
+    },
+    {
+      "name": "Shedrack Akintayo",
+      "pic": "https://pbs.twimg.com/profile_images/1072772025075294208/AzG20Qet_400x400.jpg",
+      "bio": "Developer advocate @apollojs,Google Developer expert...",
+      "twitterHandle": "@coder_blvck",
+      "topic": "The New Web",
+      "startTime": "12-09-09",
+      "endTime": "12-10-12"
+    },
+    {
+      "name": "Awonuga Sheriff",
+      "bio": "Developer advocate @apollojs,Google Developer expert...",
+      "twitterHandle": "@coolchi01",
+      "pic": "https://pbs.twimg.com/profile_images/449276357240188928/nVtexPnD_400x400.jpeg",
+      "topic": "The New Web",
+      "startTime": "12-09-09",
+      "endTime": "12-10-12"
+    }
+  ]
+}
