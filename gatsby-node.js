@@ -18,6 +18,7 @@ exports.createPages = ({ graphql, actions }) => {
                 bio
                 twitterHandle
                 topic
+                date
                 startTime
                 endTime
               }

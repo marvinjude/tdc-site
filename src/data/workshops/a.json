@@ -5,58 +5,74 @@
   "endDate": "12-12-2019",
   "speakers": [
     {
-      "name": "Iyk Azorji",
-      "pic": "https://pbs.twimg.com/profile_images/1062913735449366528/t1jKmDAe_400x400.jpg",
-      "bio": "Developer advocate @apollojs,Google Developer expert...",
-      "twitterHandle": "@iykAzorji",
-      "topic": "The New Web",
-      "startTime": "12-03-03",
-      "endTime": "12-02-03"
+      "name": "Ruth Afape",
+      "pic": "https://pbs.twimg.com/profile_images/1065196453629493249/QICABbpu_400x400.jpg",
+      "bio": "Lover of tech||Lover of God ||Organizer",
+      "twitterHandle": "@temiloluwaafape",
+      "topic": "Why data science?",
+      "date": "19-12-2018",
+      "startTime": "6:00pm",
+      "endTime": "7:00pm"
+    },
+    {
+      "name": "Olaolu Olawiyi",
+      "pic": "https://pbs.twimg.com/profile_images/1067357946655449088/bxR0OXLU_400x400.jpg",
+      "bio": "Front end Developer · Created http://bit.ly/palenight-theme  · Ex lead @conectarru · http://olaolu.me .Lagos, Nigeria • github.com/whizkydee",
+      "twitterHandle": "@mrolaolu",
+      "topic": "CSS3 isn't hard; Demistifying CSS ",
+      "date": "19-12-2018",
+      "startTime": "7:00pm",
+      "endTime": "7:30pm"
+    },
+    {
+      "name": "Awonuga Sheriff",
+      "bio": "Software & Web applications developer. +Professional Web & Graphic Designer +Social commentator.",
+      "twitterHandle": "@coolchi01",
+      "pic": "https://pbs.twimg.com/profile_images/449276357240188928/nVtexPnD_400x400.jpeg",
+      "topic": "Layouts without bootstrap; CSS flexbox and grid",
+      "date": "19-12-2018",
+      "startTime": "7:30pm",
+      "endTime": "8:00pm"
     },
     {
       "name": "Segun Olamide",
       "pic": "https://pbs.twimg.com/profile_images/815690276308156416/xQJMVAMl_400x400.jpg",
       "bio": "Developer advocate @apollojs,Google Developer expert...",
       "twitterHandle": "@wonexo",
-      "topic": "The New Web",
-      "startTime": "12-03-03",
-      "endTime": "12-02-03"
+      "topic": "From Git to Github",
+      "date": "20-12-2018",
+      "startTime": "6:00pm",
+      "endTime": "7:00pm"
     },
     {
-      "name": "Agboola Jude",
-      "pic": "https://pbs.twimg.com/profile_images/1031849999615905793/wmC3ebgh_400x400.jpg",
-      "bio": "Developer advocate @apollojs,Google Developer expert...",
-      "twitterHandle": "@marvinjudehk",
-      "topic": "The New Web",
-      "startTime": "12-09-09",
-      "endTime": "12-10-12"
-    },
-    {
-      "name": "Olaolu",
-      "pic": "https://pbs.twimg.com/profile_images/1067357946655449088/bxR0OXLU_400x400.jpg",
-      "bio": "Developer advocate @apollojs,Google Developer expert...",
-      "twitterHandle": "@mrolaola",
-      "topic": "The New Web",
-      "startTime": "12-09-09",
-      "endTime": "12-10-12"
+      "name": "Iyk Azorji",
+      "pic": "https://pbs.twimg.com/profile_images/1062913735449366528/t1jKmDAe_400x400.jpg",
+      "bio": "Nigerian | Interface Designer | Web Developer | Hobbyist Guitarist | Lover of Sound | In Search of that which Fascinates.",
+      "twitterHandle": "@iykAzorji",
+      "topic": "Making your design look awesome",
+      "date": "19-12-2018",
+      "startTime": "7:00pm",
+      "endTime": "7:45pm"
     },
     {
       "name": "Shedrack Akintayo",
       "pic": "https://pbs.twimg.com/profile_images/1072772025075294208/AzG20Qet_400x400.jpg",
       "bio": "Developer advocate @apollojs,Google Developer expert...",
       "twitterHandle": "@coder_blvck",
-      "topic": "The New Web",
-      "startTime": "12-09-09",
-      "endTime": "12-10-12"
+      "topic": "React 101; A quick introduction to react ⚛",
+      "date": "21-12-2018",
+      "startTime": "6:00pm",
+      "endTime": "7:00pm"
     },
     {
-      "name": "Awonuga Sheriff",
-      "bio": "Developer advocate @apollojs,Google Developer expert...",
-      "twitterHandle": "@coolchi01",
-      "pic": "https://pbs.twimg.com/profile_images/449276357240188928/nVtexPnD_400x400.jpeg",
-      "topic": "The New Web",
-      "startTime": "12-09-09",
-      "endTime": "12-10-12"
+      "name": "Agboola Jude",
+      "pic": "https://pbs.twimg.com/profile_images/1031849999615905793/wmC3ebgh_400x400.jpg",
+      "bio": "Mobile App Developer,Web developer, Javascript Lover , Machine Learning Enthusiast, Embedded Systems Engineer. #Always bet on Javascript.",
+      "twitterHandle": "@marvinjudehk",
+      "topic": "The future is fast 🚀 with GatsbyJS ",
+      "date": "21-12-2018",
+      "startTime": "7:00pm",
+      "endTime": "8:00pm"
     }
   ]
 }

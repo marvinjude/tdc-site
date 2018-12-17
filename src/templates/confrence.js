@@ -37,14 +37,14 @@ export default function Template({ data }) {
                 </p>
                 <p class="schedule">
                   <span class="color-gold">
-                    <IoIosTime color="gold" />
+                    <IoIosCalendar color="gold" />
                     &nbsp;
                   </span>
-                  {speaker.startTime} - {speaker.endTime}
+                  {speaker.date}
                 </p>
                 <p class="schedule">
                   <span class="color-gold">
-                    <IoIosCalendar color="gold" />
+                    <IoIosTime color="gold" />
                     &nbsp;
                   </span>
                   {speaker.startTime} - {speaker.endTime}
@@ -69,6 +69,7 @@ export const pageQuery = graphql`
         pic
         bio
         twitterHandle
+        date
         topic
         startTime
         endTime
