@@ -7,7 +7,6 @@ const Header = ({ siteTitle }) => (
     TDC
     <div className="links">
       <a className="btn" role="button" href="http://bit.ly/tdc-meetup">
-        {' '}
         REGISTER
       </a>
     </div>

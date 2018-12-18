@@ -2,12 +2,19 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Lazyload from 'react-lazyload'
+import { Helmet } from 'react-helmet'
 import { IoLogoTwitter, IoIosTime, IoIosCalendar } from 'react-icons/io'
 import './styles.css'
 
 export default function Template({ data }) {
   return (
     <Layout>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{data.workshopsJson.title}</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
+      {console.log(data.workshopsJson)}}
       <div class="container">
         <h1 class="heading1">Speakers & Schedule</h1>
         <div class="users">
