@@ -67,13 +67,13 @@ p {
   display: inline-block;
   position: relative;
   padding: 15px;
-  border-bottom: 1px solid gold;
+  /* border-bottom: 1px solid gold; */
 }
 
 .heading1:after {
   content: '';
   position: absolute;
-  width: 30%;
+  width: 50%;
   bottom: 0;
   left: 0;
   border-bottom: 8px solid gold;
@@ -89,7 +89,7 @@ p {
   display: flex;
   padding: 10px 10px 10px 15px;
   flex-direction: row;
-  border-bottom: 0.5px solid rgb(31, 30, 30);
+  border-bottom: 0.5px solid rgb(24, 24, 6);
 }
 
 .user img {
@@ -123,6 +123,35 @@ span.bullet {
 
 .user .topic {
   color: darkgray;
+}
+.cover {
+  padding: 40px;
+  color: black;
+  background-color: gold;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  flex-direction: column;
+  text-align: center;
+  font-weight: lighter;
+}
+.cover .label {
+  background-color: black;
+  font-size: 20px;
+  font-weight: bold;
+  color: gold;
+  padding: 5px;
+  transform: rotate(-5deg);
+}
+.cover .date {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .left-bar {

@@ -14,8 +14,16 @@ export default function Template({ data }) {
         <title>{data.workshopsJson.title}</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
-      {console.log(data.workshopsJson)}}
-      <div class="container">
+      {console.log(data.workshopsJson)}
+      <div className="container">
+        <div className="cover">
+          <div className="label">THEME</div>
+          {data.workshopsJson.title}
+          <div className="date">
+            {data.workshopsJson.startDate}th - {data.workshopsJson.endDate}st
+            DEC 2018
+          </div>
+        </div>
         <h1 class="heading1">Speakers & Schedule</h1>
         <div class="users">
           {data.workshopsJson.speakers.map(speaker => (
@@ -69,6 +77,8 @@ export const pageQuery = graphql`
   query($path: String!) {
     workshopsJson(path: { eq: $path }) {
       id
+      startDate
+      endDate
       title
       path
       speakers {
