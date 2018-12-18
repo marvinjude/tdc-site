@@ -12,3 +12,29 @@ p {
   padding-top: 0;
   margin-bottom: 5px;
 }
+
+.header {
+  background-color: gold;
+  width: 100%;
+  flex-shrink: 0;
+  height: 50px;
+  margin: 0;
+  font-family: Showcard Gothic;
+  color: black;
+  font-size: 30px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.header .links {
+  margin-left: auto;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 0.8rem;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.header .links .btn {
+  padding: 5px;
+  background-color: rgba(236, 229, 229, 0.5);
+  border-radius: 5px;
+}
