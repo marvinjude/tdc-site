@@ -19,24 +19,10 @@ p {
   flex-shrink: 0;
   height: 50px;
   margin: 0;
-  font-family: Showcard Gothic;
+  font-family: 'Pacifico', cursive;
   color: black;
   font-size: 30px;
   padding-left: 10px;
   display: flex;
   align-items: center;
-}
-.header .links {
-  margin-left: auto;
-  font-family: 'Nanum Gothic', sans-serif;
-  font-size: 0.8rem;
-  padding-right: 10px;
-  font-weight: bold;
-}
-.header .links .btn {
-  padding: 8px;
-  font-size: 15px;
-  background-color: rgba(233, 236, 229, 0.5);
-  border-radius: 10px;
-  color: black;
 }
