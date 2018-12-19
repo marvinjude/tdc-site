@@ -70,6 +70,20 @@ p {
   flex-direction: row;
   border-bottom: 0.5px solid rgb(24, 24, 6);
 }
+.cover__call-to-action {
+  padding: 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border: none;
+  background-color: black;
+  width: 50%;
+  font-family: inherit;
+  color: yellow;
+  font-size: 20px;
+  max-width: 200px;
+}
 
 .user img {
   border: 3px dashed gold;
@@ -130,6 +144,7 @@ span.bullet {
   font-size: 20px;
   font-weight: bold;
   padding: 5px;
+  margin-bottom: 10px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }

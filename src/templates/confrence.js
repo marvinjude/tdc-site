@@ -23,6 +23,13 @@ export default function Template({ data }) {
             {data.workshopsJson.startDate}th - {data.workshopsJson.endDate}st
             DEC 2018
           </div>
+          <a
+            role="button"
+            class="cover__call-to-action"
+            href="http://bit.ly/tdc-meetup"
+          >
+            REGISTER
+          </a>
         </div>
         <h1 class="heading1">Speakers & Schedule</h1>
         <div class="users">
