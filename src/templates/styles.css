@@ -34,7 +34,6 @@ p {
 
 .container {
   background-color: black;
-  margin-bottom: 30px;
   width: 100%;
 }
 
@@ -47,7 +46,6 @@ p {
   display: inline-block;
   position: relative;
   padding: 15px;
-  /* border-bottom: 1px solid gold; */
 }
 
 .heading1:after {
