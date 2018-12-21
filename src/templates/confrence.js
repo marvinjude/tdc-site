@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import Lazyload from 'react-lazyload'
 import { Helmet } from 'react-helmet'
 import { IoLogoTwitter, IoIosTime, IoIosCalendar } from 'react-icons/io'
+import { FiBookOpen } from 'react-icons/fi'
 import './styles.css'
 
 export default function Template({ data }) {
@@ -42,29 +43,25 @@ export default function Template({ data }) {
               </div>
               <div class="right-bar">
                 <p class="name">{speaker.name}</p>
-                <p class="bio">{speaker.bio}</p>
-                <p class="schedule">
-                  <span class="color-gold">
-                    <IoLogoTwitter color="gold" />
-                    &nbsp;
-                  </span>
+                <span class="handle">
                   <a href={`http://www.twitter.com/${speaker.twitterHandle}`}>
                     {speaker.twitterHandle}
                   </a>
-                </p>
+                </span>
+                <p class="bio">{speaker.bio}</p>
                 <p class="topic">
-                  <span class="bullet" />
+                  <FiBookOpen color="gold" />
                   &nbsp;
                   {speaker.topic}
                 </p>
-                <p class="schedule">
+                <p class="date">
                   <span class="color-gold">
                     <IoIosCalendar color="gold" />
                     &nbsp;
                   </span>
                   {speaker.date}
                 </p>
-                <p class="schedule">
+                <p class="time">
                   <span class="color-gold">
                     <IoIosTime color="gold" />
                     &nbsp;
